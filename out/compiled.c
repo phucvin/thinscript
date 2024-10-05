@@ -9907,7 +9907,7 @@ static int32_t WasmModule_allocateSignature(struct WasmModule *__this, struct Wa
 
 static void WasmModule_emitModule(struct WasmModule *__this, struct ByteArray *array) {
   ByteArray_append32(array, 1836278016);
-  ByteArray_append32(array, 10);
+  ByteArray_append32(array, 1);
   WasmModule_emitSignatures(__this, array);
   WasmModule_emitImportTable(__this, array);
   WasmModule_emitFunctionSignatures(__this, array);

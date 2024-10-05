@@ -8049,7 +8049,7 @@
 
   WasmModule.prototype.emitModule = function(array) {
     ByteArray_append32(array, 1836278016);
-    ByteArray_append32(array, 10);
+    ByteArray_append32(array, 1);
     this.emitSignatures(array);
     this.emitImportTable(array);
     this.emitFunctionSignatures(array);
