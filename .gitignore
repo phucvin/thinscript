@@ -2,3 +2,4 @@
 *.obj
 /out/thinc
 /out/thinc.exe
+/test/t01
